@@ -4,7 +4,8 @@ def move(board, input, character = "X")
 end
 
 def input_to_index(input)  
-return input.to_i - 1 end
+return input.to_i - 1 
+end
 
 def display_board(board) 
 puts " #{board[0]} | #{board[1]} | #{board[2]} " 
